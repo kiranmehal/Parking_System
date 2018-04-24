@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0ea4f5"
+
+    tools:context="com.example.macstudent.login.SplashActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parking System"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"/>
+
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        android:backgroundTint="#0099cc"
+        android:src="@drawable/carpark"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageview"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageview"
+        android:layout_marginBottom="160dp"
+        android:text="LOADING...."
+        android:textColor="@color/black_overlay"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

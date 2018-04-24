@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/myHome"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/myTicket"
+            android:icon="@drawable/ic_add_ticket_black_24dp"
+            android:title="@string/add_ticket" />
+        <item
+            android:id="@+id/myLocation"
+            android:icon="@drawable/ic_my_location_black_24dp"
+            android:title="@string/map" />
+        <item
+            android:id="@+id/myInstructions"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Mannual" />
+
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/my_Report"
+                android:icon="@drawable/ic_print_black_24dp"
+                android:title="Report" />
+
+            <item
+                android:id="@+id/my_Help"
+                android:icon="@drawable/ic_print_black_24dp"
+                android:title="Contact" />
+            <item
+                android:id="@+id/my_Logout"
+                android:icon="@drawable/ic_power_settings_new_black_24dp"
+                android:title="LogOut" />
+        </menu>
+    </item>
+
+</menu>
